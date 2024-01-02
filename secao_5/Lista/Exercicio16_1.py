@@ -2,8 +2,13 @@
 salario_bruto = int(input('Digite o salário bruto de um cidadão: '))
 
 #Cálculos
-total_desconto = (15/100) * salario_bruto
-salario_liquido = salario_bruto - total_desconto
+descontoA = 0.10 * salario_bruto
+descontoB = 0.05 * (salario_bruto - descontoA)
 
 #Resultados
-print(f'O salário líquido é {salario_liquido}')
+print(f'O salário líquido é {salario_bruto - descontoA - descontoB}')
+
+
+
+
+
