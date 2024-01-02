@@ -4,4 +4,5 @@ vendas_efetuadas = int(input('Digite o total de vendas efetuadas no mês(em dinh
 
 comissao = 15 * vendas_efetuadas / 100
 
-print(f'Nome: {nome}, salário fixo: R${salario_fixo}, salário com a comissão: R${comissao}')
+print(f'Comissão: {comissao}')
+print(f'Nome: {nome}, salário fixo: R$ {salario_fixo}, salário com a comissão: R$ {salario_fixo + comissao}')
