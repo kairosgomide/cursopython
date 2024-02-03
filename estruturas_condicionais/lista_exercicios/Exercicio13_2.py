@@ -5,7 +5,7 @@ valor_c = int(input('Escreva um valor para C: '))
 if valor_a > valor_b and valor_a > valor_c and valor_b > valor_c:
     print(f'Em ordem decrescente é: {valor_a}, {valor_b}, {valor_c}')
 elif valor_a > valor_b and valor_a > valor_c and valor_c > valor_b:
-    print(f'Em ordem decrescente é: {valor_b}, {valor_c}, {valor_c}')
+    print(f'Em ordem decrescente é: {valor_a}, {valor_c}, {valor_b}')
 elif valor_b > valor_a and valor_b > valor_c and valor_c > valor_a:
     print(f'Em ordem decrescente é: {valor_b}, {valor_c}, {valor_a}')
 elif valor_b > valor_a and valor_b > valor_c and valor_a > valor_c:

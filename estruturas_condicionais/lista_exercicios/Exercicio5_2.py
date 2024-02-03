@@ -7,4 +7,5 @@ if numero >= 0:
     print(raiz_quadrada)
 elif numero < 0:
     quadrado = numero ** 2
+    #math.pow(numero, 2)
     print(quadrado)
